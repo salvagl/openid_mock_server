@@ -70,9 +70,9 @@ curl http://localhost:5000/.well-known/jwks
 ```
 
 
-##UV Commands
+## UV Commands
 
-###Python versions
+### Python versions
 ```
 uv python install: Install Python versions.
 uv python list: View available Python versions.
@@ -82,14 +82,14 @@ uv python uninstall: Uninstall a Python version.
 ```
 
 
-###Run Scripts
+### Run Scripts
 ```
 uv run: Run a script.
 uv add --script: Add a dependency to a script
 uv remove --script: Remove a dependency from a script
 ```
 
-###Project management
+### Project management
 ```
 uv init: Create a new Python project.
 uv add: Add a dependency to the project.
