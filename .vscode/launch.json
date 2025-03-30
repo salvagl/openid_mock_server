@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Debug with uv",
+        "type": "python",
+        "request": "launch",
+        "program": "idp_server_mock.py",
+        "console": "integratedTerminal",
+        "justMyCode": false,
+        "env": {
+          "PYTHONUNBUFFERED": "1"
+        },
+        "args": ["run", "--port", "44366"]
+      }
+    ]
+  }
+  

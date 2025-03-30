@@ -1,0 +1,34 @@
+{
+  "users": {
+    "test_user": {
+      "password": "password123",
+      "name": "Salvador Galiano López",
+      "given_name": "Salvador",
+      "family_name": "Galiano López",
+      "sub": "57d09bed-c874-4ec9-9a37-faf527af1f7f",
+      "login": "salvador.galiano@unir.net",
+      "roles": ["admin", "user"]
+    }
+  },
+  "clients": [
+    {
+      "client_id": "backend-client",
+      "client_secret": "secret123",
+      "url": "http://localhost:5000",
+      "redirect_uri": "http://localhost:5000/callback",
+      "signing_alg": "HS256"
+    },
+    {
+      "client_id": "spa-client",
+      "client_secret": "",
+      "url": "http://localhost:4200",
+      "redirect_uri": "http://localhost:4200/callback",
+      "signing_alg": "RS256"
+    }
+  ],
+  "signing_keys": {
+    "backend-client": "supersecretkey",
+    "spa-client": "public-key-here"
+  },
+  "token_lifetime": 3600
+}
